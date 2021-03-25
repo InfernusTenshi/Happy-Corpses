@@ -1,8 +1,8 @@
 *{
-    margin: 0px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
+} 
 body{
     background: url("fondo.jpg");
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body{
     background-size: 100% 100%;
 }
 .enca{
-    background: rgba(8, 8, 8, 0.5);
+    background: rgba(27, 27, 27, 0.5);
     overflow: hidden;
     width: 100%;
     margin-bottom: 20px;
@@ -26,11 +26,11 @@ body{
     overflow: hidden;
 }
 .logo{
+    float: left;
     color: #fff;
     font-size: 50px;
     font-family: Algerian;
     line-height: 70px;
-    float: left;
 }
 nav{
     line-height: 70px;
@@ -52,10 +52,20 @@ nav a:hover{
     color: rgb(61, 60, 60);
     border-bottom: 5px solid rgb(209, 10, 10);
 }
-
-.contenedor-h1{
-    text-align: center;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
     
+
+div#text{
+    width: 80%;
+    height: 600px;
+    margin:auto;
+    margin-top: 50px;
+    white-space: pre-wrap;
+}
+
+.title{
+    font-family:"arial";
+	font-size: 40px;
+    text-align: center;
+	color: rgb(124, 0, 0);
+	text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.4em;
 }
