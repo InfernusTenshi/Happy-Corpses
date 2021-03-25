@@ -61,3 +61,19 @@ nav a:hover{
 	color: black;
 	text-shadow: white 0.2em 0.2em 0.4em;
 }
+
+div#general{
+    width: 80%;
+    height: 600px;
+    margin:auto;
+    margin-top: 50px;
+    white-space: pre-wrap;
+}
+
+.subtitle{
+    font-family:"Exquisite Corpse";
+	font-size: 40px;
+    text-align: center;
+	color: black;
+	text-shadow: white 0.2em 0.2em 0.4em;
+}
