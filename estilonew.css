@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+body{
+    background: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.enca{
+    background: rgba(8, 8, 8, 0.5);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    color: #fff;
+    font-size: 50px;
+    font-family: Algerian;
+    line-height: 70px;
+    float: left;
+}
+nav{
+    line-height: 70px;
+    float: right;
+}
+nav a{
+    color: rgb(158, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    font-family: Algerian;
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: normal;
+    font-size: 16 px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+nav a:hover{
+    color: rgb(61, 60, 60);
+    border-bottom: 5px solid rgb(209, 10, 10);
+}
+
+.contenedor-h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
