@@ -10,11 +10,14 @@ body{
 	background: url("3671800.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100% 100%; 
+}
+
+nav{
+    float: right;
 }
 
 nav a{
-	float:right;
     color: rgb(158, 0, 0);
     display: inline-block;
     text-decoration: none;
@@ -66,8 +69,9 @@ div#general{
     width: 80%;
     height: 600px;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 70px;
     white-space: pre-wrap;
+    background-color: rgba(8,8,8,0.5);
 }
 
 .subtitle{
