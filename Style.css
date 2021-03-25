@@ -61,7 +61,3 @@ nav a:hover{
 	color: black;
 	text-shadow: white 0.2em 0.2em 0.4em;
 }
-body{
-	  border-collapse: separate;
-  border-spacing: 100px;
-}
