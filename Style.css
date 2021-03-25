@@ -56,10 +56,10 @@ nav a:hover{
 }
 
 .linked{
-	font-family:"Exquisite Corpse";
+	font-family:"Elephant";
 	font-size: 25px;
-	color: black;
-	text-shadow: white 0.2em 0.2em 0.4em;
+	color: rgb(145, 0, 0);
+	text-shadow: rgb(8, 8, 8) 0.2em 0.2em 0.4em;
 }
 
 div#general{
