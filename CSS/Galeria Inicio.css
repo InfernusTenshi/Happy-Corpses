@@ -4,7 +4,7 @@
     padding: 0%;
 }
 body{
-    font-family: ;
+
 }
 h1{
     font-weight: 400;
@@ -20,8 +20,22 @@ h1{
     display: block;
 }
 
-.inicio{
-    width: 50px;
-    height: 50px;
-    background: #000;
+.galeria{
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 }
+.galeria > a{
+     
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+}
+
