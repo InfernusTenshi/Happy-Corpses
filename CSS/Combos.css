@@ -6,33 +6,17 @@
 	src: url("../FONTS/M54.ttf")
 }
 body{
-	
-	background: url("../PICTURES/Combos.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;  
+	font-family: arial,Helvetica,sans-serif;
+	margin:0px;
+	background: url("../PICTURES/Combos.jpg"); /* imagen de fondo */
+	background-size: cover;/* tipo de esparcimiento de la imagen */
+	background-attachment: fixed; /* fijado al fondo */
 }
 
-.linked{
-	font-family:"M54";
-	font-size: 25px;
-	color: rgba(255, 251, 0, 0.527);
-	text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.4em;
-	white-space: pre-wrap;
+*{
+	box-sizing: border-box; /* encajona los elementos para trabajarlos por separado mas comodo */
 }
 
-div#general{
-    width: 80%;
-    height: 600px;
-    margin:auto;
-    margin-top: 0px;
-    white-space: pre-wrap; 
-}
-
-.subtitle{
-    font-family:"M54";
-	font-size: 35px;
-    text-align: center;
-	color:rgb(231, 229, 92);
-	text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.4em;
+.logo{
+	text-align: left;
 }
