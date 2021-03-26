@@ -59,10 +59,11 @@ nav a:hover{
 }
 
 .linked{
-	font-family:"Elephant";
+	font-family:"M54";
 	font-size: 25px;
 	color: rgba(255, 251, 0, 0.527);
 	text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.4em;
+	white-space: pre-wrap;
 }
 
 div#general{
