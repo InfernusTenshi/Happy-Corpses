@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{/* modificaciones al body */
+	font-family: arial,Helvetica,sans-serif;
+	margin:0px;
+	background: url("../PICTURES/Registro.jpg"); /* imagen de fondo */
+	background-size: cover;/* tipo de esparcimiento de la imagen */
+	background-attachment: fixed; /* fijado al fondo */
+}
+
+*{
+	box-sizing: border-box; /* encajona los elementos para trabajarlos por separado mas comodo */
+}	
+
+.contenedor{ /* tamaño y separacion entre el contenedor */
+	width: 100%;
+	padding: 15px;
+}
+
+.formulario{ 
+	/* tamaño color y separacion del 
+	formulario con respecto a los bordes de la pagina */
+	background: #00000096;
+	margin-top: 150px;
+	padding: 3px;
+}
+
+h1{ /* h1 esta utilizado para el titulo */
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px
+}
+
+input[type="text"],input[type="password"] /* modificar propiedades ya establecidas de html al mismo tiempo de forma especifica */
+{
+	color: rgb(231, 229, 92);
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	background-color:#00000096;
+	border: none; /* elimina los bordes por defecto para que no se vean */
+}
+
+input::placeholder
+{
+	color: rgb(231, 229, 92);
+}
+
+.imput-contenedor{ /* modifica el icono el texto y el espacio para ingresar datos al mismo tiempo  */
+	margin-bottom: 15px;
+
+	/* border: 1px solid rgb(0, 0, 0);  genera un borde solido con un color */
+}
+
+.icon{ /* separa los iconos como elementos propios y los centra */
+	min-width: 50px;
+	text-align: center;
+	color: rgb(231, 229, 92);
+}
+
+.button{ /* cnfiguracion del boton */
+	border: none; /* elimina el borde */
+	width: 100%; /* cambia el tamaño */
+	color:rgb(231, 229, 92); /* cambia el color */
+	font-size: 20px; /* cambia el tamaño de la fuente */
+	background: #000000; /* cambia el color */
+	padding: 15px 20px; 
+	border-radius: 5px; /* redondea el boton */
+	cursor:pointer; /* cambia el cursor al estar arriba del boton */
+}
+
+.button:hover{ /* propiedades del boton al estar sobre el  */
+	background: rgba(0, 0, 0, 0.603); /* cambia el color del boton */
+}
+
+p{
+	text-align: center;
+	color: #ffffff;
+}
+
+.link{
+	text-decoration: none; /* elimina el subrayado y coloracion del enlace */
+	color:rgb(231, 229, 92); /* cambia el color del enlace  */
+	font-weight: 600; 
+}
+
+.link:hover{
+	color:rgb(107, 105, 0); /* cambia el color al estar sobre el enlace */
+	
+}
+
+@media(min-width: 768px) /* cambios aplicables si esta como minimo en 768px  */
+{/* esto le da funcionalidad para moviles */
+	.formulario{
+		margin: auto; /* da un margin automatic */
+		width: 500px; /* acho acorde a la resolucion */
+		margin-top: 150px; /* espaciamiento hacia arriba */
+		border-radius: 2%; /* redondeo de bordes dependiendo del espacio */
+	}
+}
+
