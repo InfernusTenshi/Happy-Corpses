@@ -3,14 +3,14 @@
 body{
 	margin:0;
 	padding: 0;
-	background: #333;
 	font-family: sans-serif;
+	background: #333;
 }
 
 h1{
 	font-size: 70px;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .contenedor{
@@ -25,11 +25,11 @@ img{
 
 .galeria__columna{
 	margin: 5px;
-	filter: grayscale(100%);
+	filter: grayscale(0%);
 }
 
 .galeria__columna:hover{
-	filter: grayscale(0%);
+	filter: grayscale(100%);
 }
 
 .galeria .contenedor{
